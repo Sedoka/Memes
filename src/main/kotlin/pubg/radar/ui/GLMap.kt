@@ -279,9 +279,7 @@ class GLMap : InputAdapter(), ApplicationListener, GameListener {
             NUM_4 -> filterScope = filterScope * -1
             NUM_5 -> filterHeals = filterHeals * -1
             NUM_6 -> filterAmmo = filterAmmo * -1
-            NUM_7 -> camera.zoom = 1 / 8f
-            NUM_8 -> camera.zoom = 1 / 12f
-            NUM_9 -> camera.zoom = 1 / 24f
+
 
         }
         return false

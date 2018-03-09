@@ -8,32 +8,23 @@
 ![Jetski](https://github.com/NoParamedic/Memes/blob/master/src/main/resources/images/jetski.png?raw=true)
 ![Parachute](https://github.com/NoParamedic/Memes/blob/master/src/main/resources/images/parachute.png?raw=true)
 
-#### Item Filter:
 
-* HOME -> Show / Hide Compass
-* NUMPAD_0 -> Filter Throwables
-* NUMPAD_1 -> Filter Attachments
-* NUMPAD_2 -> Filter Scopes 
-* NUMPAD_3 -> Filter Ammo 
-* NUMPAD_4 -> Filter Weapons
-* NUMPAD_5 -> Filter Level 2 Gear          
-* NUMPAD_6 -> Filter Meds
+* F1 -> Combat Mode 
+* F2 -> Filter Throwables
+* F3 -> Show / Hide Compass
+* F4 -> Toggle Vehicle Names 
+* F5 -> Toggle Vehicles
+* F6 ->  Camera Zoom ++
+* F7 -> Camera Zoom --
+* F8 -> Toggle View Line
+
+* NUM1 -> Filter Weapons
+* NUM2 -> Filter Attachments
+* NUM3 -> Filter Level 2 Gear
+* NUM4 -> Filter Scopes           
+* NUM5 -> Filter Meds
+* NUM6 -> Filter Ammo 
            
-#### Icon Toggles
-
-
-* F6 -> Toggle Vehicle Names 
-* F7 -> Toggle Vehicles
-* F8 -> Combat Mode 
-* F11 -> Toggle View Line
-
-#### Zooms:
-* NUMPAD_7 -> Scouting
-* NUMPAD_8 -> Scout/Loot
-* NUMPAD_9 -> Looting
-* F9 ->  Camera Zoom ++
-* F10 -> Camera Zoom --
-
 
 # Changes
 * Get self player's location by parsing `CharMoveComp` RPC. So the player's direction is corrected now. 
