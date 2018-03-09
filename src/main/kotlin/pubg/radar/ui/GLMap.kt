@@ -265,30 +265,23 @@ class GLMap : InputAdapter(), ApplicationListener, GameListener {
         when (keycode) {
 
         // Icon Filter Keybinds
-            HOME -> drawcompass = drawcompass * -1
-            NUMPAD_0 -> filterThrow = filterThrow * -1
-            NUMPAD_4 -> filterWeapon = filterWeapon * -1
-            NUMPAD_1 -> filterAttach = filterAttach * -1
-            NUMPAD_5 -> filterLvl2 = filterLvl2 * -1
-            NUMPAD_2 -> filterScope = filterScope * -1
-            NUMPAD_6 -> filterHeals = filterHeals * -1
-            NUMPAD_3 -> filterAmmo = filterAmmo * -1
-            NUMPAD_7 -> camera.zoom = 1 / 8f
-            NUMPAD_8 -> camera.zoom = 1 / 12f
-            NUMPAD_9 -> camera.zoom = 1 / 24f
-
-        // Toggle Transparent Player Icons
-            F8 -> combatMode = combatMode * -1
-            F7 -> toggleVehicles = toggleVehicles * -1
-            F6 -> toggleVNames = toggleVNames * -1
-
-        // Zoom In/Out || Overrides Max/Min Zoom
-            F9 -> camera.zoom = camera.zoom + 0.00525f
-            F10 -> camera.zoom = camera.zoom - 0.00525f
-
-        // Toggle View Line
-            F11 -> toggleView = toggleView * -1
-
+            F1 -> combatMode = combatMode * -1
+            F2 -> filterThrow = filterThrow * -1
+            F3 -> drawcompass = drawcompass * -1
+            F4 -> toggleVehicles = toggleVehicles * -1
+            F5 -> toggleVNames = toggleVNames * -1
+            F6 -> camera.zoom = camera.zoom + 0.00525f
+            F7 -> camera.zoom = camera.zoom - 0.00525f
+            F8 -> toggleView = toggleView * -1
+            NUM_1 -> filterWeapon = filterWeapon * -1
+            NUM_2 -> filterAttach = filterAttach * -1
+            NUM_3 -> filterLvl2 = filterLvl2 * -1
+            NUM_4 -> filterScope = filterScope * -1
+            NUM_5 -> filterHeals = filterHeals * -1
+            NUM_6 -> filterAmmo = filterAmmo * -1
+            NUM_7 -> camera.zoom = 1 / 8f
+            NUM_8 -> camera.zoom = 1 / 12f
+            NUM_9 -> camera.zoom = 1 / 24f
 
         }
         return false
