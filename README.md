@@ -23,7 +23,8 @@
 * NUM3 -> Filter Level 2 Gear
 * NUM4 -> Filter Scopes           
 * NUM5 -> Filter Meds
-* NUM6 -> Filter Ammo 
+* NUM6 -> Filter Ammo
+* NUM7 -> Player Information Panel
            
 
 # Changes

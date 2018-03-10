@@ -284,9 +284,6 @@ class GLMap : InputAdapter(), ApplicationListener, GameListener {
             NUM_7 -> {if (nameToggles < 5) {nameToggles += 1}
                    if (nameToggles == 5) {nameToggles = 1}
             }
-
-
-
         }
         return false
     }
@@ -570,12 +567,12 @@ class GLMap : InputAdapter(), ApplicationListener, GameListener {
             else
                 espFontShadow.draw(spriteBatch, "THROW", 200f, windowHeight - 25f)
             if (combatMode == 1)
-                espFont.draw(spriteBatch, "CM [F7]", 270f, windowHeight - 25f)
+                espFont.draw(spriteBatch, "CM [F1]", 270f, windowHeight - 25f)
             else {
-                espFontShadow.draw(spriteBatch, "CM [F7]", 270f, windowHeight - 25f)
+                espFontShadow.draw(spriteBatch, "CM [F1]", 270f, windowHeight - 25f)
             }
                 val num = nameToggles
-                espFontShadow.draw(spriteBatch, "$num  [F8]", 270f, windowHeight - 42f)
+                espFontShadow.draw(spriteBatch, "$num  [NUM7]", 270f, windowHeight - 42f)
 
 
             val pinDistance = (pinLocation.cpy().sub(selfX, selfY).len() / 100).toInt()
